@@ -1,0 +1,34 @@
+<!-- Table with panel -->
+<div class="card card-cascade narrower">
+
+  <!--Card image-->
+  <div
+    class="view view-cascade gradient-card-header blue-gradient narrower py-2 mx-4 mb-3 d-flex justify-content-between align-items-center">
+
+    <div>
+      <button type="button" class="btn btn-outline-white btn-rounded btn-sm px-2">
+        <i class="fas fa-th-large mt-0"></i>
+      </button>
+      <button type="button" class="btn btn-outline-white btn-rounded btn-sm px-2">
+        <i class="fas fa-columns mt-0"></i>
+      </button>
+    </div>
+
+    <a href="" class="white-text mx-3">{{bookDetails.book_name}} Book Detail</a>
+
+    <div>
+      <a (click)="goBack()" type="button" class="btn btn-outline-white btn-rounded btn-sm px-2">
+        <i class="fas fa-arrow-left  mt-0"></i>
+        Go Back
+      </a>
+    </div>
+  </div>
+  <!--/Card image-->
+  <ul>
+    <li>Book: {{bookDetails.book_name}}</li>
+    <li>Author: {{bookDetails.author}}</li>
+    <li>Edition: {{bookDetails.edition}}</li>
+    <li>Price: {{bookDetails.price}} </li>
+  </ul>
+
+</div>

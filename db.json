@@ -1,0 +1,32 @@
+{
+  "Books": [
+    {
+      "id": 1,
+      "book_name": "Angular",
+      "author": "Haider",
+      "edition": "2nd",
+      "price": 200
+    },
+    {
+      "id": 2,
+      "book_name": "The Last Story",
+      "author": "Yousaf",
+      "edition": "2nd",
+      "price": "2000"
+    },
+    {
+      "id": 3,
+      "book_name": "12",
+      "author": "haider",
+      "edition": "4th",
+      "price": "400"
+    },
+    {
+      "id": 4,
+      "book_name": "Clock",
+      "author": "Khan",
+      "edition": "5th",
+      "price": "200"
+    }
+  ]
+}
